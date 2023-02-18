@@ -1,6 +1,6 @@
 {
   description = "nix flake for simplex-chat";
-  inputs.nixpkgs.url = "github:angerman/nixpkgs/22.11";
+  inputs.nixpkgs.url = "github:angerman/nixpkgs/release-22.11";
   inputs.haskellNix.url = "github:input-output-hk/haskell.nix/armv7a";
   inputs.haskellNix.inputs.nixpkgs.follows = "nixpkgs";
   inputs.hackage = {
